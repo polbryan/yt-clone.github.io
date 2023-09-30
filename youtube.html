@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="stylesYT/general.css">
+    <link rel="stylesheet" href="stylesYT/header.css">
+    <link rel="stylesheet" href="stylesYT/sidebar.css">
+    <link rel="stylesheet" href="stylesYT/video.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle">
+            <input class="search" type="text" placeholder="Search">
+            <button class="search-button"><img class="search-icon" src="icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button"><img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-icon-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="user-picture" src="channel/mypic.jpg" alt="">
+        </div>
+        
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </nav>
+
+    <div class="video-grid">
+
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=pFptt7Cargc">
+                    <img class="thumbnail" src="thumbnails/thumbnail-01.webp" alt="">
+                </a>
+                <div class="video-time">4:17</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-01.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">Tame Impala - Let It Happen (Official Video)</p>
+                    <p class="author">Tame Imapala</p>
+                    <p class="stats">107M views &#183; 8 years ago</p>
+                </div>
+                
+                
+            </div>
+            
+            
+        </div>
+    
+    
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=2SJpegpFkkc">
+                    <img class="thumbnail" src="thumbnails/thumbnail-02.webp" alt="">
+                </a>
+                <div class="video-time">33:40</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-02.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">T1 vs GEN Game 1 - LCK Grand Finals</p>
+                    <p class="author">LoL Pro Plays</p>
+                    <p class="stats">3k views &#183; 9 days ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+    
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=_9bw_VtMUGA">
+                    <img class="thumbnail" src="thumbnails/thumbnail-03.webp" alt="">
+                </a>
+                <div class="video-time">6:05</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-01.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">Tame Impala - New Person, Same Old Mistakes (Audio)</p>
+                    <p class="author">Tame Impala</p>
+                    <p class="stats">39M views &#183; 3 years ago</p>
+                </div>
+                
+                
+            </div>
+
+            
+            
+        </div>
+    
+    
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=2g5xkLqIElU">
+                    <img class="thumbnail" src="thumbnails/thumbnail-04.webp" alt="">
+                </a>
+                <div class="video-time">3:58</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-01.jpg" alt="">
+
+                </div>
+                <div class="videoinfo">
+                    <p class="title">Tame Impala - Borderline (Official Audio)</p>
+                    <p class="author">Tame Impala</p>
+                    <p class="stats">51M views &#183; 3 years ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+    
+    
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=XFkzRNyygfk">
+                    <img class="thumbnail" src="thumbnails/thumbnail-05.webp" alt="">
+                </a>
+                <div class="video-time">3:57</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-03.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">Radiohead - Creep</p>
+                    <p class="author">Radiohead</p>
+                    <p class="stats">876M views &#183; 15 years ago</p>
+                </div>
+                
+                
+            </div>
+            
+            
+        </div>
+    
+    
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=5kS-BicsjS4">
+                    <img class="thumbnail" src="thumbnails/thumbnail-06.webp" alt="">
+                </a>
+                <div class="video-time">4:33:26</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-04.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">GEN vs T1 | LCK Summer Grand Finals</p>
+                    <p class="author">LCK Global</p>
+                    <p class="stats">1.2M views &#183; Streamed 9 days ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=v4lpI8t4ySY">
+                    <img class="thumbnail" src="thumbnails/thumbnail-07.webp" alt="">
+                </a>
+                <div class="video-time">17:50</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-05.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">The Worst Airline Experiences - Key & Peele</p>
+                    <p class="author">Key & Peele</p>
+                    <p class="stats">6.8M views &#183; 2 years ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=OFf5IZcN1UU">
+                    <img class="thumbnail" src="thumbnails/thumbnail-08.webp" alt="">
+                </a>
+                <div class="video-time">26:59</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-06.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">KATI</p>
+                    <p class="author">Cong TV</p>
+                    <p class="stats">3.4M views &#183; 13 days ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=78DMiZ9-_Hs">
+                    <img class="thumbnail" src="thumbnails/thumbnail-09.webp" alt="">
+                </a>
+                <div class="video-time">5:20:55</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-04.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">KT vs T1 | 2023 LCK Summer Playoffs Round2 Match1</p>
+                    <p class="author">LCK Global</p>
+                    <p class="stats">1.1M views &#183; Streamed 2 weeks ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=mWRsgZuwf_8">
+                    <img class="thumbnail" src="thumbnails/thumbnail-10.webp" alt="">
+                </a>
+                <div class="video-time">3:57</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-07.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">Imagine Dragons - Demons (Official Music Video)</p>
+                    <p class="author">Imagine Dragons</p>
+                    <p class="stats">1B views &#183; 10 years ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=sENM2wA_FTg">
+                    <img class="thumbnail" src="thumbnails/thumbnail-11.webp" alt="">
+                </a>
+                <div class="video-time">4:07</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-07.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">Imagine Dragons - It's Time (Official Music Video)</p>
+                    <p class="author">Imagine Dragons</p>
+                    <p class="stats">562M views &#183; 11 years ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+
+        <div  class="preview">
+            <div class="row">
+                <a href="https://www.youtube.com/watch?v=u5CVsCnxyXg">
+                    <img class="thumbnail" src="thumbnails/thumbnail-12.webp" alt="">
+                </a>
+                <div class="video-time">3:48</div>
+            </div>
+            <div class="videogrid">
+                <div class="channelpic">
+                    <img class="profile" src="channel/channel-03.jpg" alt="">
+                </div>
+                <div class="videoinfo">
+                    <p class="title">Radiohead - No Surprises</p>
+                    <p class="author">Radiohead</p>
+                    <p class="stats">190M views &#183; 14 years ago</p>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+    </div>
+    
+
+   
+</body>
+</html>
